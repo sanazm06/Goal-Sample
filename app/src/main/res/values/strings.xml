@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Goal Sample</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_refresh">Refresh</string>
+</resources>

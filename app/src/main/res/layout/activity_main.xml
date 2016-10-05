@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/book4"
+    tools:context="goalsample.client1.goal_sample.goalsample.com.goalsample.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Goal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/add"
+        android:background="#C61520"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dip"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Added Goals"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/add"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_margin="25dip"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_margin="10dip"
+        android:layout_below="@+id/textView3">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/mainLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dip"
+        android:cacheColorHint="#FFFFFF"
+        android:gravity="center">
+
+    </LinearLayout>
+    </ScrollView>
+
+        <!--<GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridView"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:numColumns="2"
+            android:layout_margin="10dip"
+            android:background="#3EB02F"
+            android:cacheColorHint="#FFFFFF"
+            android:gravity="center">
+        </GridView>
+-->
+   <!-- <android.support.v7.widget.GridLayout
+
+        android:id="@+id/choice_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:layout_below="@+id/textView3"
+
+        grid:alignmentMode="alignBounds"
+        grid:columnCount="2"
+        grid:rowOrderPreserved="false"
+        grid:useDefaultMargins="true"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="#FF33B5E5"
+            android:text="Tile1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="#FF33B5E5"
+            android:text="Tile2" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="#FF33B5E5"
+            android:text="Tile3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:background="#FF33B5E5"
+            android:text="Tile4" />
+
+    </android.support.v7.widget.GridLayout>-->
+</RelativeLayout>
