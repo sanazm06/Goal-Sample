@@ -2,6 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="F:\Android Projects\GoalSample\Goal-Sample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Goal-Sample" vcs="Git" />
   </component>
 </project>
